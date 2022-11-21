@@ -2,6 +2,7 @@ package colorcoder;
 
 import colorservice.Numbermethods;
 import colorservice.Pairmethods;
+import colorservice.PrintColorCode;
 import model.MajorColor;
 import model.MinorColor;
 
@@ -14,5 +15,8 @@ public class Main {
     
     	Pairmethods.testPairToNumber(MajorColor.BLACK, MinorColor.ORANGE, 12);
     	Pairmethods.testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
+    	
+    	PrintColorCode.printColorCodes();
+    	
     }
 }
